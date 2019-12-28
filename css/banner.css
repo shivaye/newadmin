@@ -1,0 +1,95 @@
+.carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next {
+    right:30%;
+    margin-right: -10px;
+}
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .icon-next {
+    left:30%;
+    margin-left: -10px;
+}
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 25px;
+    background: black;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+	line-height: 30px;
+}
+/*======= media queries in css =======*/
+
+/*////////////// XTRA SMALL DEVICES( mobile phones ) //////////////*/
+@media (min-width: 300px) and (max-width: 479px){  
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 20px;
+    background: black;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 10px;
+}
+.carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next {
+    right:30%;
+    margin-right: -10px;
+}
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .icon-next {
+    left:30%;
+    margin-left: -10px;
+}
+  }
+
+/*////////////// TAB OR LARGE MOBILE PHONE //////////////*/
+@media (min-width: 768px) and (max-width: 991px){  
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;  top: 50%; z-index: 5; display: inline-block; margin-top: -10px; font-size: 20px; background: black; padding: 10px; width: 30px;
+    height: 30px; line-height: 10px;}
+.carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next {
+    right:30%; margin-right: -10px;}
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .icon-next {
+    left:30%; margin-left: -10px;}
+  }
+
+/*////////////// MEDIUM DEVICES LAPTOPS //////////////*/
+@media (min-width: 992px) and (max-width: 1199px){  
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+position: absolute; top: 50%; z-index: 5; display: inline-block; margin-top: -10px; font-size: 20px; background: black; padding: 10px; width:40px; height:40px;
+line-height: 10px;}
+
+.carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next {right:30%; margin-right: -10px;}
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .icon-next {left:30%; margin-left: -10px;}
+
+}
+
+.carousel-inner {/*height: 700px!important;*/}
+
+
+/***********************Contact Banner**********************/
+.panel-bg {position: absolute; top: 156px; right: 0; width: 500px; height: 703px; background: url(../images/bg-conatct.jpg) repeat;}
+.panel-bg h1{font-size: 36px; color: #fff;}
+.panel-bg h4{ font-size: 16px; color: #fff; }
+
+.panel-info {border-color: #bce8f1; border: none; margin: 120px 50px 0 50px; background-color: #000; padding: 30px 50px; }
+.input-group-addon {border-radius: 0px!important;}
+.form-control {height:40px!important; border-radius: 0px!important; }
+.panel-body {
+     padding: 0px!important; 
+}
+
+.btn {
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 0px!important;
+    width: 100%;
+}
